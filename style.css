@@ -1,0 +1,153 @@
+@font-face {
+    font-family: 'Robo';
+    src: url(/vendor/roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Wonder';
+    src: url(/vendor/wondercity/Wondercity.otf);
+    font-style: normal;
+    font-weight: 1 500 700 800 1000;
+}
+
+@font-face {
+    font-family: 'Mister';
+    src: url(/vendor/mister_stars/Mister\ Stars.otf);
+}
+
+body {
+    margin: 0; /* Hapus margin bawaan */
+    overflow-x: hidden; /* Nonaktifkan scroll horizontal */
+}
+
+/* Start Navbar */
+.backgroundNavbar {
+    font-family: 'Robo';
+}
+
+.navbar-nav {
+    margin-right: 50px;
+}
+
+.navbar-nav a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar img {
+    width: 40px;
+    height: 35px;
+}
+
+.nav-link:hover {
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+#mixed {
+    background-color: #3897F1;
+    height: 610px;
+}
+
+.backgroundNavbar .nav-link {
+    color: black;
+}
+/* End Navbar */
+
+/* Start Header */
+@keyframes swing {
+    0% { transform: rotate(0deg); }
+    50% { transform: rotate(15deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+  .headersub img {
+    animation: swing 900ms linear infinite;
+    animation-delay: 2s;
+    margin-bottom: 10px;
+  }
+
+  .headersub {
+    margin-left: 52px;
+    font-weight: bold;
+  }
+
+/* .headersub img {
+
+  animation: swing 800ms linear  infinite; 
+  animation-delay: 2s;
+} */
+
+.tittle h1 {
+    font-family: Helvetica,;
+    font-weight: 650;
+    font-size: 72px;
+    margin-top: -10px;
+}
+
+#header {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+
+.subtittle p {
+    color: rgb(58, 58, 58);
+}
+
+.buttonTell button {
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    font-weight: bold;
+    border-width: 0px;
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+/* End Header */
+
+/* About */
+#about {
+    margin-top: 100px;
+    margin-bottom: 55px;
+}
+
+.PP img {
+    width: 300px;
+    height: 364px;
+    border-radius: 20px;
+    margin-left: 40px;
+}
+
+.Desc h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.Desc p {
+    text-align: justify;
+}
+/* End About */
+
+/* Start Limit */
+.limit {
+    margin-bottom: 50px;
+}
+
+.limit .KL .LB {
+    margin-bottom: -50px;
+    margin-left: -15px;
+    width: 103%;
+    height: 100%;
+    transform: rotate(8deg);
+}
+
+.limit .KLB .LBB {
+    margin-left: -15px;
+    width: 103%;
+    height: 100%;
+    transform: rotate(-8deg);
+}
+/* End Limit */

@@ -13,23 +13,74 @@
     <link rel="stylesheet" href="/vendor/bootstrap-5.0.2-dist/css/bootstrap-reboot.css">
     <link rel="stylesheet" href="/vendor/bootstrap-5.0.2-dist/css/bootstrap-utilities.css">
     <link rel="stylesheet" href="/vendor/bootstrap-5.0.2-dist/css/bootstrap.rtl.css">
+
+    <!-- Link animasi -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
-    <!-- Start Navbar -->
-     <section class="backgroundNavbar">
-        <div class="Navbar">
-            <img src="/img/amd.svg" alt="Logo">
-        </div>
 
+    <div id="mixed">
+        <!-- Start Navbar -->
+     <section class="backgroundNavbar">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <img src="/img/amd.svg" class="navbar-brand" alt="Logo">
+              <div class="navbar-nav">
+                <a class="nav-link" href="#">Home</a>
+                <a class="nav-link scroll-link" href="#about">About</a>
+                <a class="nav-link" href="#">Contact</a>
+              </div>
+            </div>
+          </nav>
      </section>
     <!-- End Navbar -->
 
     <!-- Start Header -->
-     <h1>hello world!</h1>
+    <div id="header">
+        <div class="headersub">
+            <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/so-so.png" alt="so-so"/> Hello welcome, i am
+        </div>
+         <div class="tittle">
+            <h1>Ahmad <br> Erlan <br> Saputra</h1>
+         </div>
+         <div class="subtittle">
+            <p>Newbie programmer <br> from Indonesia</p>
+         </div>
+         <div class="buttonTell">
+          <a href="#about" class="scroll-link"><button type="button">Tell me more!</button></a>
+         </div>
+    </div>
     <!-- End Header -->
+    </div>
 
     <!-- Start About me -->
+     <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="PP col-6">
+            <img src="/img/Photo_Profile.jpg" alt="">
+          </div>
+          <div class="Desc col-4">
+            <h1>About me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet facere odit esse quibusdam dolore itaque! Ea accusamus velit doloremque aliquam, eaque eos veritatis aspernatur eum sapiente tempora corporis debitis non?
+            Laudantium quis ex quod dignissimos id at dolore reprehenderit facere commodi. Delectus nemo et quis sapiente eveniet, quisquam officia doloribus sed aut ipsum consequatur dolores, cupiditate voluptates repudiandae quibusdam in!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, ad. Aperiam reprehenderit, laudantium quae illum sit error veritatis in corporis at optio consectetur excepturi atque rem amet minus perspiciatis beatae.</p>
+          </div>
+        </div>
+      </div>
+     </div>
     <!-- End About me -->
+
+    <!--  -->
+    <div class="limit">
+    <div class="KL">
+      <img src="/img/blue.png" alt="Blue" class="LB">
+    </div>
+    <div class="KLB">
+      <img src="/img/black.png" alt="Black" class="LBB">
+    </div>
+    </div>
+    <!--  -->
 
     <!-- Start Contact -->
     <!-- End Contact -->
@@ -43,5 +94,6 @@
     <script src="/vendor/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
     <script src="/vendor/bootstrap-5.0.2-dist/js/bootstrap.esm.js"></script>
     <script src="/vendor/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
